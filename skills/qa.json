@@ -1,0 +1,50 @@
+[
+  {
+    "icon": "SiTestinglibrary",
+    "Cypress": "Automation Frame Work",
+    "Command": "100%",
+    "Integration": "Cucumber, POM, Allure Report, Git",
+    "Project": "5+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiTestinglibrary",
+    "Selenium": "Automation Frame Work",
+    "Command": "100%",
+    "Integration": "TestNG, Cucumber, POM, Allure Report, Git",
+    "Project": "5+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiTestinglibrary",
+    "Playwright": "Automation Frame Work",
+    "Command": "100%",
+    "Integration": "Cucumber, POM, Allure Report, Git",
+    "Project": "3+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiTestinglibrary",
+    "Appium": "Automation Frame Work",
+    "Command": "100%",
+    "Integration": "POM, Allure Report, Git",
+    "Project": "2+",
+    "Expricence": "1+"
+  },
+  {
+    "icon": "SiTestinglibrary",
+    "Puppeteer": "Automation Frame Work",
+    "Command": "100%",
+    "Integration": "Git",
+    "Project": "2+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiTestinglibrary",
+    "Nightwatch.js": "Automation Frame Work",
+    "Command": "100%",
+    "Integration": "POM, Git",
+    "Project": "1+",
+    "Experience": "1+"
+  }
+]
