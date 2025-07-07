@@ -8,7 +8,7 @@ const app = express();
 
 // Allow CORS only from http://localhost:3000
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000', 'https://codetestrepeat.vercel.app'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // optional, define allowed methods
   credentials: true // optional, if you're sending cookies or authorization headers
 }));
