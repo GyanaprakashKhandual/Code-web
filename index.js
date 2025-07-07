@@ -3,7 +3,7 @@ const cors = require('cors');
 const restAssured = require('./test/ra.json');
 const qaSkills = require('./skills/qa.json');
 const webProjects = require('./projects/webProjects.json');
-
+const qaProjects = require('./projects/qaProject.json');
 const app = express();
 
 // Allow CORS only from http://localhost:3000
@@ -25,7 +25,11 @@ app.get('/api/web-projects', (req, res) => {
 
 app.get('/api/qa-skills', (req, res) => {
   res.json(qaSkills);
-})
+});
+
+app.get('/api/qa-projects', (req, res) => {
+  res.json(qaProjects);
+});
 
 // Root endpoint
 app.get('/', (req, res) => {
