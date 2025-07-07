@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Caffeetest",
+    "description": "Caffeetest is a full-featured bug and test case management web application designed to help QA teams and developers efficiently track, manage, and resolve project bugs in real-time. With its cloud-based collaboration capabilities, it enables seamless communication among team members, making it ideal for distributed teams.",
+    "imageURL": "https://res.cloudinary.com/dvytvjplt/image/upload/v1751886233/Screenshot_2025-07-07_161414_dedfb8.png",
+    "features": [
+      "Bug tracking with priority and severity labels",
+      "Test case creation and execution tracking",
+      "Real-time cloud synchronization and collaboration",
+      "Dark/light mode support with modern UI animations",
+      "Advanced search and filtering for quick access to issues",
+      "Detailed bug reporting with actual vs expected results",
+      "Team login with role-based access control (RBAC)"
+    ],
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Lucide React Icons",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "useCases": [
+      "Ideal for small to medium QA teams managing multiple projects",
+      "Solo testers or developers needing a clean UI to document bugs",
+      "Startups that want a lightweight alternative to tools like Jira",
+      "Students or open-source contributors managing testing workflows"
+    ],
+    "futurePlans": [
+      "Add file/image attachments to bug reports",
+      "Export reports to CSV/JSON formats",
+      "Dashboard analytics and performance metrics",
+      "Email notifications for bug updates",
+      "AI-assisted bug categorization and suggestions"
+    ],
+    "githubFrontend": "https://github.com/GyanaprakashKhandual/caffetest",
+    "githubBackend": "https://github.com/GyanaprakashKhandual/caffetest-web",
+    "link": "https://caffetest.vercel.app/"
+  },
+  {
+    "name": "Space Time",
+    "description": "Space Time is a visually engaging frontend project that delivers a unique UI/UX experience focused on interactivity and elegant design. It serves as a showcase of animated layout transitions and component structures, ideal for personal portfolios or themed content displays.",
+    "imageURL": "https://res.cloudinary.com/dvytvjplt/image/upload/v1751887083/Screenshot_2025-07-07_164715_bw2rx4.png",
+    "features": [
+      "Responsive UI with animated transitions",
+      "Creative layout with theme-driven design",
+      "Interactive visual sections",
+      "Optimized for performance with clean architecture",
+      "Deployed using Vercel for fast delivery"
+    ],
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "React Icons",
+      "JavaScript"
+    ],
+    "useCases": [
+      "Portfolio websites showcasing creativity",
+      "Landing pages for startups or products",
+      "UI/UX practice or inspiration projects",
+      "Frontend animation testing environments"
+    ],
+    "futurePlans": [
+      "Add dynamic content using a CMS",
+      "Convert to full-stack with backend support",
+      "Enhance performance with lazy loading",
+      "Add dark/light mode toggle",
+      "Integrate custom animations and SVG paths"
+    ],
+    "githubFrontend": "https://github.com/GyanaprakashKhandual/space",
+    "githubBackend": "",
+    "link": "https://space-three-eosin.vercel.app/"
+  },
+  {
+    "name": "Nexoruim",
+    "description": "Nexoruim is a full-featured bug and test case management web application designed to help QA teams and developers efficiently track, manage, and resolve project bugs in real-time. With its cloud-based collaboration capabilities, it enables seamless communication among team members, making it ideal for distributed teams.",
+    "imageURL": "https://res.cloudinary.com/dvytvjplt/image/upload/v1751887536/Screenshot_2025-07-07_165504_bjtovg.png",
+    "features": [
+      "Bug tracking with priority and severity labels",
+      "Test case creation and execution tracking",
+      "Real-time cloud synchronization and collaboration",
+      "Dark/light mode support with modern UI animations",
+      "Advanced search and filtering for quick access to issues",
+      "Detailed bug reporting with actual vs expected results",
+      "Team login with role-based access control (RBAC)"
+    ],
+    "techStack": [
+      "Next.js",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Lucide React Icons",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "useCases": [
+      "Ideal for small to medium QA teams managing multiple projects",
+      "Solo testers or developers needing a clean UI to document bugs",
+      "Startups that want a lightweight alternative to tools like Jira",
+      "Students or open-source contributors managing testing workflows"
+    ],
+    "futurePlans": [
+      "Add file/image attachments to bug reports",
+      "Export reports to CSV/JSON formats",
+      "Dashboard analytics and performance metrics",
+      "Email notifications for bug updates",
+      "AI-assisted bug categorization and suggestions"
+    ],
+    "githubFrontend": "https://github.com/GyanaprakashKhandual/caffeetest-frontend",
+    "githubBackend": "https://github.com/GyanaprakashKhandual/nexoriumbackend",
+    "link": "https://nexorium.vercel.app/"
+  }
+]
