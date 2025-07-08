@@ -1,0 +1,10 @@
+[
+  {
+    "repoName": "Pioneers Wine",
+    "repoLink": "https://github.com/GyanaprakashKhandual/Pioneers-Wine",
+    "stars": "2",
+    "lineOfCode": "2000",
+    "About": "This repo contains all the testing-related data, reports, and automation code for the Pioneers Wine eCommerce platform.",
+    "work": "Developed end-to-end automated test cases using Selenium with Java and TestNG. Integrated Allure Reports for detailed test analysis. Implemented Page Object Model (POM) for maintainable test structure. Covered modules like Login, Product Search, Cart, Checkout, and Admin Panel. Also includes manual test cases and bug reports documented using Jira format."
+  }
+]
