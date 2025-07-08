@@ -83,6 +83,36 @@
       "Used JMeter to simulate multiple user sessions and analyze the load-handling capability of the code editor under stress."
     ],
     "githubLink": "https://github.com/GyanaprakashKhandual/Pioneers-Wine"
+  },
+    {
+    "name": "PISL Infra",
+    "testingType": "Automation and Manual Testing",
+    "testType": [
+      "Functional Testing",
+      "User Interface Testing",
+      "Load Testing",
+      "User Acceptance Testing",
+      "Requirement Testing",
+      "API Testing"
+    ],
+    "techStack": [
+      "Microsoft Office",
+      "Miro Mind Map",
+      "Zoho Projects",
+      "K6",
+      "Selenium",
+      "Cucumber",
+      "Page Object Model",
+      "HTML Report",
+      "Git and Git Hub"
+    ],
+    "work": [
+      "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
+      "Performed end-to-end UI testing to ensure consistent cross-platform behavior and responsive layout.",
+      "Executed requirement traceability by mapping each test case directly to functional specifications.",
+      "Used JMeter to simulate multiple user sessions and analyze the load-handling capability of the code editor under stress."
+    ],
+    "githubLink": "https://github.com/GyanaprakashKhandual/pisl"
   }
 
 ]
