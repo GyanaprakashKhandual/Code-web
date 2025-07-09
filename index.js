@@ -1,48 +1,60 @@
 const express = require('express');
 const cors = require('cors');
-const restAssured = require('./test/ra.json');
-const qaSkills = require('./skills/qa.json');
-const webProjects = require('./projects/webProjects.json');
-const qaProjects = require('./projects/qaProject.json');
-const github = require('./about/github.json');
+const restAssured = require('./data/guide/QABlog.json')
+const qaSkills = require('./data/skills/QA.json');
+const webProjects = require('./data/projects/Web.json');
+const qaProjects = require('./data/projects/Web.json');
+const github = require('./data/about/Github.json');
+
+
+
 const app = express();
 
-// Allow CORS only from http://localhost:3000
+
 app.use(cors({
   origin: ['http://localhost:3000', 'https://codetestrepeat.vercel.app'],
-  methods: ['GET', 'POST', 'PUT', 'DELETE'], // optional, define allowed methods
-  credentials: true // optional, if you're sending cookies or authorization headers
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true 
 }));
 
 app.use(express.json());
 
-app.get('/api/qa-engineer', (req, res) => {
+// Guide APIs
+
+app.get('/api/qa-blogs', (req, res) => {
   res.json(restAssured);
 });
+
+// About APIs 
 
 app.get('/api/git-hub', (req, res) => {
   res.json(github);
 });
 
 
+// Project APIs
 app.get('/api/web-projects', (req, res) => {
   res.json(webProjects);
-})
-
-app.get('/api/qa-skills', (req, res) => {
-  res.json(qaSkills);
 });
 
 app.get('/api/qa-projects', (req, res) => {
   res.json(qaProjects);
 });
 
-// Root endpoint
+
+// Skill APIs
+
+app.get('/api/qa-skills', (req, res) => {
+  res.json(qaSkills);
+});
+
+
+
 app.get('/', (req, res) => {
   res.send('This is the API for the portfolio website.');
 });
 
-// Start server
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
