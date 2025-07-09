@@ -3,7 +3,7 @@
     "icon": "SiTestinglibrary",
     "Cypress": "Automation Framework",
     "Command": "100%",
-    "Integration": "Cucumber, POM, Allure Report, Git",
+    "Integration": "Cucumber, POM, Allure",
     "Project": "5+",
     "Experience": "1+"
   },
@@ -11,7 +11,7 @@
     "icon": "SiTestinglibrary",
     "Selenium": "Automation Framework",
     "Command": "100%",
-    "Integration": "TestNG, Cucumber, POM, Allure Report, Git",
+    "Integration": "Cucumber, POM, Extent",
     "Project": "5+",
     "Experience": "1+"
   },
@@ -19,7 +19,7 @@
     "icon": "SiTestinglibrary",
     "Playwright": "Automation Framework",
     "Command": "100%",
-    "Integration": "Cucumber, POM, Allure Report, Git",
+    "Integration": "Cucumber, POM, HTML",
     "Project": "3+",
     "Experience": "1+"
   },

@@ -5,7 +5,8 @@ const qaSkills = require('./data/skills/QA.json');
 const webProjects = require('./data/projects/Web.json');
 const qaProjects = require('./data/projects/Web.json');
 const github = require('./data/about/Github.json');
-
+const webSkills = require('./data/skills/Web.json');
+const daSkills = require('./data/skills/DA.json')
 
 
 const app = express();
@@ -48,8 +49,15 @@ app.get('/api/qa-skills', (req, res) => {
   res.json(qaSkills);
 });
 
+app.get('/api/web-skills', (req, res) => {
+  res.json(webSkills);
+});
 
+app.get('/api/da-skills', (req, res) => {
+  res.json(daSkills);
+});
 
+// Route Health check
 app.get('/', (req, res) => {
   res.send('This is the API for the portfolio website.');
 });

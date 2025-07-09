@@ -1,0 +1,98 @@
+[
+  {
+    "tech": "HTML",
+    "project": "20+",
+    "experience": "1+",
+    "covered": "100%"
+  },
+  {
+    "tech": "CSS",
+    "project": "20+",
+    "experience": "1+",
+    "covered": "100%"
+  },
+  {
+    "tech": "JavaScript",
+    "project": "20+",
+    "experience": "1+",
+    "covered": "100%"
+  },
+  {
+    "tech": "React.js",
+    "project": "15+",
+    "experience": "1+",
+    "covered": "100%"
+  },
+  {
+    "tech": "Next.js",
+    "project": "5+",
+    "experience": "6 Months+",
+    "covered": "90%"
+  },
+  {
+    "tech": "TypeScript",
+    "project": "5+",
+    "experience": "6 Months+",
+    "covered": "90%"
+  },
+  {
+    "tech": "Tailwind CSS",
+    "project": "15+",
+    "experience": "1+",
+    "covered": "100%"
+  },
+  {
+    "tech": "Bootstrap",
+    "project": "10+",
+    "experience": "1+",
+    "covered": "100%"
+  },
+  {
+    "tech": "Material UI",
+    "project": "5+",
+    "experience": "6 Months+",
+    "covered": "85%"
+  },
+  {
+    "tech": "Framer Motion",
+    "project": "10+",
+    "experience": "6 Months+",
+    "covered": "90%"
+  },
+  {
+    "tech": "GSAP",
+    "project": "3+",
+    "experience": "3 Months+",
+    "covered": "75%"
+  },
+  {
+    "tech": "Redux / Context API",
+    "project": "7+",
+    "experience": "6 Months+",
+    "covered": "85%"
+  },
+  {
+    "tech": "Styled Components",
+    "project": "3+",
+    "experience": "3 Months+",
+    "covered": "60%"
+  },
+  {
+    "tech": "SASS / SCSS",
+    "project": "3+",
+    "experience": "3 Months+",
+    "covered": "70%"
+  },
+  {
+    "tech": "Lucide React",
+    "project": "10+",
+    "experience": "6 Months+",
+    "covered": "90%"
+  },
+  {
+    "tech": "React Icons",
+    "project": "20+",
+    "experience": "1+",
+    "covered": "100%"
+  }
+]
