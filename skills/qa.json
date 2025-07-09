@@ -1,7 +1,7 @@
 [
   {
     "icon": "SiTestinglibrary",
-    "Cypress": "Automation Frame Work",
+    "Cypress": "Automation Framework",
     "Command": "100%",
     "Integration": "Cucumber, POM, Allure Report, Git",
     "Project": "5+",
@@ -9,7 +9,7 @@
   },
   {
     "icon": "SiTestinglibrary",
-    "Selenium": "Automation Frame Work",
+    "Selenium": "Automation Framework",
     "Command": "100%",
     "Integration": "TestNG, Cucumber, POM, Allure Report, Git",
     "Project": "5+",
@@ -17,7 +17,7 @@
   },
   {
     "icon": "SiTestinglibrary",
-    "Playwright": "Automation Frame Work",
+    "Playwright": "Automation Framework",
     "Command": "100%",
     "Integration": "Cucumber, POM, Allure Report, Git",
     "Project": "3+",
@@ -25,15 +25,15 @@
   },
   {
     "icon": "SiTestinglibrary",
-    "Appium": "Automation Frame Work",
+    "Appium": "Automation Framework",
     "Command": "100%",
     "Integration": "POM, Allure Report, Git",
     "Project": "2+",
-    "Expricence": "1+"
+    "Experience": "1+"
   },
   {
     "icon": "SiTestinglibrary",
-    "Puppeteer": "Automation Frame Work",
+    "Puppeteer": "Automation Framework",
     "Command": "100%",
     "Integration": "Git",
     "Project": "2+",
@@ -41,10 +41,82 @@
   },
   {
     "icon": "SiTestinglibrary",
-    "Nightwatch.js": "Automation Frame Work",
+    "Nightwatch.js": "Automation Framework",
     "Command": "100%",
     "Integration": "POM, Git",
     "Project": "1+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiJmeter",
+    "JMeter": "Load Testing Tool",
+    "Command": "100%",
+    "Integration": "BlazeMeter, Grafana, Jenkins, Git",
+    "Project": "3+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiLocust",
+    "Locust": "Load Testing Tool",
+    "Command": "100%",
+    "Integration": "Python, Grafana, Jenkins, Git",
+    "Project": "2+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiGatling",
+    "Gatling": "Load and Spike Testing Tool",
+    "Command": "100%",
+    "Integration": "Scala, Jenkins, Grafana, Git",
+    "Project": "2+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiK6",
+    "k6": "Load and Soak Testing Tool",
+    "Command": "100%",
+    "Integration": "JavaScript, Grafana, Jenkins, Git",
+    "Project": "2+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiPostman",
+    "Postman": "API Testing Tool",
+    "Command": "100%",
+    "Integration": "Newman, Jenkins, Git",
+    "Project": "4+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiRestassured",
+    "RestAssured": "API Testing Framework",
+    "Command": "100%",
+    "Integration": "Java, TestNG, Jenkins, Git",
+    "Project": "3+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiSoapui",
+    "SoapUI": "API Testing Tool",
+    "Command": "100%",
+    "Integration": "Jenkins, Git",
+    "Project": "2+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiJira",
+    "Jira": "Test Management Tool",
+    "Command": "100%",
+    "Integration": "Zephyr, Xray, Git",
+    "Project": "5+",
+    "Experience": "1+"
+  },
+  {
+    "icon": "SiTestrail",
+    "TestRail": "Test Management Tool",
+    "Command": "100%",
+    "Integration": "Jira, Jenkins, Git",
+    "Project": "3+",
     "Experience": "1+"
   }
 ]
