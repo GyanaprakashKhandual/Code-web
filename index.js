@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const restAssured = require('./data/guide/QABlog.json')
+const qaGuide = require('./data/guide/QAGuide.json');
 const qaSkills = require('./data/skills/QA.json');
 const webProjects = require('./data/projects/Web.json');
 const qaProjects = require('./data/projects/QA.json');
@@ -23,7 +23,7 @@ app.use(express.json());
 // Guide APIs
 
 app.get('/api/qa-blogs', (req, res) => {
-  res.json(restAssured);
+  res.json(qaGuide);
 });
 
 // About APIs 
