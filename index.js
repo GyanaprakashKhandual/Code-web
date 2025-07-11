@@ -22,7 +22,7 @@ app.use(express.json());
 
 // Guide APIs
 
-app.get('/api/qa-blogs', (req, res) => {
+app.get('/api/qa-guide', (req, res) => {
   res.json(qaGuide);
 });
 
