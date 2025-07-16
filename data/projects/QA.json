@@ -5,15 +5,16 @@
     "testType": [
       "Functional Testing",
       "User Interface Testing",
-      "Load Testing",
-      "User Acceptance Testing",
-      "Requirement Testing"
+      "Performance Testing",
+      "API Testing",
+      "User Acceptance Testing"
     ],
     "techStack": [
       "Microsoft Office",
       "Miro Mind Map",
-      "Jira",
-      "JMeter"
+      "JMeter",
+      "Postman",
+      "Jira"
     ],
     "work": [
       "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
@@ -30,21 +31,18 @@
     "testType": [
       "Functional Testing",
       "User Interface Testing",
-      "Load Testing",
-      "User Acceptance Testing",
-      "Requirement Testing",
-      "API Testing"
+      "Performance Testing",
+      "API Testing",
+      "User Acceptance Testing"
     ],
     "techStack": [
-      "Microsoft Office",
-      "Miro Mind Map",
-      "Jira",
+      "Google Workspace",
+      "Test Rail",
       "Grafana",
       "Cypress",
       "Cucumber",
       "Page Object Model",
-      "Allure Report",
-      "Git and Git Hub"
+      "Allure Report"
     ],
     "work": [
       "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
@@ -60,21 +58,18 @@
     "testType": [
       "Functional Testing",
       "User Interface Testing",
-      "Load Testing",
-      "User Acceptance Testing",
-      "Requirement Testing",
-      "API Testing"
+      "Performance Testing",
+      "API Testing",
+      "User Acceptance Testing"
     ],
     "techStack": [
-      "Microsoft Office",
-      "Miro Mind Map",
-      "Jira",
+      "Notion",
+      "Bug Zila",
       "Artillery",
       "Selenium",
       "Cucumber",
       "Page Object Model",
-      "Extent Report",
-      "Git and Git Hub"
+      "Extent Report"
     ],
     "work": [
       "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
@@ -96,15 +91,13 @@
       "API Testing"
     ],
     "techStack": [
-      "Microsoft Office",
-      "Miro Mind Map",
+      "Google Workspace",
       "Zoho Projects",
       "K6",
       "Selenium",
       "Cucumber",
       "Page Object Model",
-      "HTML Report",
-      "Git and Git Hub"
+      "HTML Report"
     ],
     "work": [
       "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
@@ -113,6 +106,84 @@
       "Used JMeter to simulate multiple user sessions and analyze the load-handling capability of the code editor under stress."
     ],
     "githubLink": "https://github.com/GyanaprakashKhandual/pisl"
-  }
+  },
 
+  {
+    "name": "Resolution Pro",
+    "testingType": "Manual Testing and Automation Testing",
+    "testType": [
+      "Functional Testing",
+      "User Interface Testing",
+      "Performance Testing",
+      "API Testing",
+      "User Acceptance Testing"
+    ],
+    "techStack": [
+      "Google Workspace",
+      "Zoho Projects",
+      "Playwright",
+      "Cucumber",
+      "Page Object Model",
+      "Allure Report",
+      "Locust",
+      "Rest Assured"
+    ],
+    "work": [
+      "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
+      "Performed end-to-end UI testing to ensure consistent cross-platform behavior and responsive layout.",
+      "Executed requirement traceability by mapping each test case directly to functional specifications.",
+      "Used JMeter to simulate multiple user sessions and analyze the load-handling capability of the code editor under stress."
+    ],
+    "githubLink": "https://github.com/GyanaprakashKhandual/resolutionpros"
+  },
+  {
+    "name": "Get My Policy",
+    "testingType": "Manual Testing and Automation Testing",
+    "testType": [
+      "Functional Testing",
+      "User Interface Testing",
+      "Performance Testing",
+      "Responsive Testing",
+      "User Acceptance Testing"
+    ],
+    "techStack": [
+      "Google Workspace",
+      "Zoho Projects",
+      "Night JS",
+      "K6",
+      "Soap UI"
+    ],
+    "work": [
+      "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
+      "Performed end-to-end UI testing to ensure consistent cross-platform behavior and responsive layout.",
+      "Executed requirement traceability by mapping each test case directly to functional specifications.",
+      "Used JMeter to simulate multiple user sessions and analyze the load-handling capability of the code editor under stress."
+    ],
+    "githubLink": "https://github.com/GyanaprakashKhandual"
+  },
+   {
+    "name": "Audit Pro",
+    "testingType": "Manual Testing and Automation Testing",
+    "testType": [
+      "Functional Testing",
+      "User Interface Testing",
+      "Performance Testing",
+      "Responsive Testing",
+      "User Acceptance Testing"
+    ],
+    "techStack": [
+      "Google Workspace",
+      "Zoho Projects",
+      "PyTest",
+      "K6",
+      "Soap UI"
+    ],
+    "work": [
+      "Designed comprehensive test cases to validate core editor functionalities like syntax highlighting, auto-completion, and file operations.",
+      "Performed end-to-end UI testing to ensure consistent cross-platform behavior and responsive layout.",
+      "Executed requirement traceability by mapping each test case directly to functional specifications.",
+      "Used JMeter to simulate multiple user sessions and analyze the load-handling capability of the code editor under stress."
+    ],
+    "githubLink": "https://github.com/GyanaprakashKhandual"
+  }
 ]
