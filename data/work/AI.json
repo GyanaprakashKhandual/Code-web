@@ -1,0 +1,27 @@
+[
+    {
+    "name": "Avidus Interactive",
+    "address": "JP Nagar, Bengaluru, Karnataka",
+    "workType": "Remote Work",
+    "designation": "Quality Assurance Analyst",
+    "duration": "April 2024 To Present",
+    "rolesAndResponsibilities": [
+        "Designing, documenting, and executing manual and automated test cases for multiple projects.",
+        "Collaborating closely with developers, product managers, and UI/UX teams to ensure product quality across web applications.",
+        "Developing test plans, identifying test scenarios, and ensuring traceability of test cases to requirements.",
+        "Conducting cross-browser and cross-device testing to ensure consistent behavior and responsiveness.",
+        "Reporting and tracking bugs using tools like Jira, and ensuring timely resolution and regression testing.",
+        "Writing end-to-end test scripts using Selenium and Cypress for UI, API, and performance testing.",
+        "Leading smoke, sanity, and regression testing cycles prior to deployment.",
+        "Communicating quality metrics to the team and continuously improving test coverage and efficiency."
+    ],
+    "projects": {
+        "PISL Infra": "https://github.com/GyanaprakashKhandual/pisl",
+        "Resolution Pro (Legal Case Management System)": "https://github.com/GyanaprakashKhandual/resolutionpros",
+        "Audit Pro (Compliance & Audit Management)": "https://github.com/GyanaprakashKhandual/audit-pro",
+        "Mega Jewelers (Inventory and Billing System)": "https://github.com/GyanaprakashKhandual/mega-jewelers",
+        "Get My Policy Online (Insurance Policy Portal)": "https://github.com/GyanaprakashKhandual/get-my-policy-online",
+        "REVX Capital (Financial & Loan Dashboard)": "https://github.com/GyanaprakashKhandual/revx-capital"
+    }
+}
+]
