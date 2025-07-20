@@ -113,5 +113,46 @@
     "githubFrontend": "https://github.com/GyanaprakashKhandual/caffeetest-frontend",
     "githubBackend": "https://github.com/GyanaprakashKhandual/nexoriumbackend",
     "link": "https://nexorium.vercel.app/"
-  }
+  },
+{
+  "name": "Load Test Dashboard",
+  "description": "An advanced dashboard designed to help developers and QA engineers analyze, compare, and visualize K6 load testing reports with detailed metrics and modern UI.",
+  "imageURL": "https://res.cloudinary.com/dvytvjplt/image/upload/v1753005132/Screenshot_2025-07-20_152147_puzumn.png",
+  "features": [
+    "Devloper can comment and fetch the issue with these reports in real time",
+    "Visual representation of requests, responses, and performance metrics",
+    "Real-time test summary with average response time, checks passed, and request count",
+    "Dark/light mode support with smooth animations and transitions",
+    "Support for grouped metrics and labeled test categories",
+    "Search and filter by API name or status code",
+    "Team collaboration with project name saving and local data persistence"
+  ],
+  "techStack": [
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Lucide React Icons",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JavaScript"
+  ],
+  "useCases": [
+    "QA teams validating API performance under load",
+    "Developers analyzing the performance impact of new deployments",
+    "Teams needing visual test reporting without complex dashboards",
+    "Freelancers and students learning performance testing via K6"
+  ],
+  "futurePlans": [
+    "Support drag-and-drop or file upload for K6 results (JSON format)",
+    "Export load test analysis as PDF, CSV, or JSON",
+    "Integrated AI assistant for interpreting performance data",
+    "Shareable report links with read-only access",
+    "CI/CD pipeline integration with real-time test result posting"
+  ],
+  "githubFrontend": "https://github.com/GyanaprakashKhandual/next-load-dashboard",
+  "githubBackend": "https://github.com/GyanaprakashKhandual/jwellary-backend-load-test-result",
+  "link": "https://next-load-dashboard.vercel.app/"
+}
 ]
+
