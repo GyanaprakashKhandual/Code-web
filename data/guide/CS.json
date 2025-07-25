@@ -1,0 +1,230 @@
+{
+  "basic": {
+    "file_and_directory_operations": [
+      {
+        "command": "pwd",
+        "description": "Prints the current working directory",
+        "example": "pwd"
+      },
+      {
+        "command": "ls",
+        "description": "Lists files and directories in the current directory",
+        "example": "ls"
+      },
+      {
+        "command": "cd [dir]",
+        "description": "Changes the current directory",
+        "example": "cd /home/user/Documents"
+      },
+      {
+        "command": "mkdir [dir]",
+        "description": "Creates a new directory",
+        "example": "mkdir myfolder"
+      },
+      {
+        "command": "rm file.txt",
+        "description": "Removes a file",
+        "example": "rm oldfile.txt"
+      },
+      {
+        "command": "rm -r folder",
+        "description": "Recursively deletes a directory and its contents",
+        "example": "rm -r oldfolder"
+      }
+    ],
+    "file_viewing": [
+      {
+        "command": "cat file.txt",
+        "description": "Displays the contents of a file",
+        "example": "cat notes.txt"
+      },
+      {
+        "command": "less file.txt",
+        "description": "Scrolls through a file one screen at a time",
+        "example": "less largefile.txt"
+      },
+      {
+        "command": "head file.txt",
+        "description": "Shows the first 10 lines of a file",
+        "example": "head error.log"
+      },
+      {
+        "command": "tail -f file.log",
+        "description": "Displays file content and monitors for changes",
+        "example": "tail -f /var/log/syslog"
+      }
+    ],
+    "permissions": [
+      {
+        "command": "chmod +x file.sh",
+        "description": "Makes a script file executable",
+        "example": "chmod +x backup.sh"
+      },
+      {
+        "command": "chown user:group file",
+        "description": "Changes file owner and group",
+        "example": "chown chris:developers app.py"
+      }
+    ]
+  },
+  "intermediate": {
+    "package_management": [
+      {
+        "command": "sudo apt update",
+        "description": "Updates the package list (Debian/Ubuntu)",
+        "example": "sudo apt update"
+      },
+      {
+        "command": "sudo yum install nginx",
+        "description": "Installs a package (RedHat/CentOS)",
+        "example": "sudo yum install nginx"
+      }
+    ],
+    "networking": [
+      {
+        "command": "ping google.com",
+        "description": "Tests network connection to a domain",
+        "example": "ping google.com"
+      },
+      {
+        "command": "ip a",
+        "description": "Shows IP address configuration",
+        "example": "ip a"
+      },
+      {
+        "command": "curl example.com",
+        "description": "Fetches a webpage via command line",
+        "example": "curl https://api.github.com"
+      }
+    ],
+    "process_management": [
+      {
+        "command": "ps aux",
+        "description": "Lists all running processes",
+        "example": "ps aux"
+      },
+      {
+        "command": "kill PID",
+        "description": "Terminates a process by PID",
+        "example": "kill 1234"
+      }
+    ],
+    "archiving_and_compression": [
+      {
+        "command": "tar -czvf archive.tar.gz folder",
+        "description": "Creates a compressed archive of a folder",
+        "example": "tar -czvf site_backup.tar.gz /var/www/html"
+      },
+      {
+        "command": "unzip file.zip",
+        "description": "Extracts a zip archive",
+        "example": "unzip images.zip"
+      }
+    ],
+    "user_management": [
+      {
+        "command": "adduser chris",
+        "description": "Adds a new user",
+        "example": "adduser chris"
+      },
+      {
+        "command": "usermod -aG sudo chris",
+        "description": "Adds user to the sudo group",
+        "example": "usermod -aG sudo chris"
+      }
+    ]
+  },
+  "advanced": {
+    "text_processing": [
+      {
+        "command": "grep 'error' logfile.txt",
+        "description": "Searches for 'error' in logfile",
+        "example": "grep 'error' /var/log/apache2/error.log"
+      },
+      {
+        "command": "awk '{print $1}' file.txt",
+        "description": "Prints the first column of each line",
+        "example": "awk '{print $1}' users.txt"
+      },
+      {
+        "command": "sed 's/foo/bar/g' file.txt",
+        "description": "Replaces all 'foo' with 'bar'",
+        "example": "sed 's/dev/prod/g' config.txt"
+      }
+    ],
+    "crontab": [
+      {
+        "command": "crontab -e",
+        "description": "Edits current user's scheduled tasks",
+        "example": "crontab -e"
+      },
+      {
+        "command": "0 2 * * * /path/script.sh",
+        "description": "Runs script daily at 2 AM",
+        "example": "0 2 * * * /home/user/backup.sh"
+      }
+    ],
+    "ssh_and_copy": [
+      {
+        "command": "ssh user@host",
+        "description": "Log in to a remote machine via SSH",
+        "example": "ssh root@192.168.1.10"
+      },
+      {
+        "command": "scp file.txt user@host:/path",
+        "description": "Copies file to remote host",
+        "example": "scp backup.sql root@192.168.1.10:/backup/"
+      }
+    ],
+    "bash_scripting": [
+      {
+        "command": "#!/bin/bash\necho \"Hello, $USER\"",
+        "description": "Simple bash script example",
+        "example": "save as greet.sh and run with ./greet.sh"
+      }
+    ],
+    "system_monitoring": [
+      {
+        "command": "top",
+        "description": "Real-time process monitoring",
+        "example": "top"
+      },
+      {
+        "command": "journalctl -xe",
+        "description": "Shows detailed system logs",
+        "example": "journalctl -xe"
+      }
+    ]
+  },
+  "bonus": {
+    "git_and_docker": [
+      {
+        "command": "git clone https://github.com/user/repo.git",
+        "description": "Clones a git repository",
+        "example": "git clone https://github.com/torvalds/linux.git"
+      },
+      {
+        "command": "docker ps",
+        "description": "Lists running Docker containers",
+        "example": "docker ps"
+      },
+      {
+        "command": "docker run -it ubuntu",
+        "description": "Runs an interactive Ubuntu container",
+        "example": "docker run -it ubuntu"
+      }
+    ],
+    "firewall": [
+      {
+        "command": "ufw allow 22",
+        "description": "Allows SSH through firewall",
+        "example": "sudo ufw allow 22"
+      },
+      {
+        "command": "ufw status",
+        "description": "Checks firewall status",
+        "example": "sudo ufw status"
+      }
+    ]
+  }
+}

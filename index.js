@@ -8,7 +8,7 @@ const github = require('./data/about/Github.json');
 const webSkills = require('./data/skills/Web.json');
 const daSkills = require('./data/skills/DA.json');
 const workAi = require('./data/work/AI.json');
-
+const cs = require('./data/guide/CS.json');
 
 const app = express();
 
@@ -25,6 +25,10 @@ app.use(express.json());
 
 app.get('/api/qa-guide', (req, res) => {
   res.json(qaGuide);
+});
+
+app.get('/api/cs-guide', (req, res) => {
+  res.json(cs)
 });
 
 // About APIs 
