@@ -1,0 +1,74 @@
+{
+  "animationProps": {
+    "initial": "Initial state of the component before animation",
+    "animate": "Target state of the component after animation",
+    "exit": "State when the component is removed",
+    "whileHover": "Animation when the component is hovered",
+    "whileTap": "Animation when the component is tapped/clicked",
+    "whileDrag": "Animation while dragging",
+    "whileFocus": "Animation while component is focused",
+    "whileInView": "Animation when the component is in view",
+    "variants": "Named animation states used with initial/animate/exit",
+    "custom": "Custom props passed into variants for dynamic behavior"
+  },
+  "transitionProps": {
+    "duration": "Duration of the transition in seconds",
+    "delay": "Delay before the transition starts",
+    "ease": "Easing function like 'easeIn', 'easeOut', or cubic bezier",
+    "type": "Type of animation, e.g. 'spring', 'tween', 'inertia'",
+    "stiffness": "Spring stiffness (for spring type)",
+    "damping": "Spring damping (for spring type)",
+    "mass": "Mass of the spring",
+    "restDelta": "Threshold for stopping the spring",
+    "restSpeed": "Speed threshold to stop the animation",
+    "repeat": "Number of times to repeat (or Infinity)",
+    "repeatType": "Type of repeat: 'loop', 'reverse', 'mirror'",
+    "repeatDelay": "Delay between repeats",
+    "bounce": "Bounce level for spring"
+  },
+  "dragProps": {
+    "drag": "Enable drag (true/false or 'x'/'y')",
+    "dragConstraints": "Limits the drag area using object or ref",
+    "dragDirectionLock": "Lock dragging to x or y after direction is detected",
+    "dragSnapToOrigin": "Snap back to original position when released",
+    "dragElastic": "How elastic the drag is (0 to 1)",
+    "dragMomentum": "Enable momentum after drag ends"
+  },
+  "gestureProps": {
+    "onHoverStart": "Callback when hover starts",
+    "onHoverEnd": "Callback when hover ends",
+    "onTap": "Callback when tapped",
+    "onTapStart": "Callback when tap starts",
+    "onTapCancel": "Callback when tap is canceled",
+    "onPan": "Callback when panning",
+    "onPanStart": "Callback when pan starts",
+    "onPanEnd": "Callback when pan ends",
+    "onDragStart": "Callback when drag starts",
+    "onDrag": "Callback during dragging",
+    "onDragEnd": "Callback when drag ends"
+  },
+  "inViewProps": {
+    "viewport": {
+      "once": "Run animation only once",
+      "amount": "Amount of component visible to trigger (0 to 1)",
+      "margin": "Offset margin, e.g. '-100px'"
+    }
+  },
+  "layoutProps": {
+    "layout": "Enable layout animations",
+    "layoutId": "Shared layout animations between components"
+  },
+  "motionValueProps": {
+    "style": "Bind motion values to style properties",
+    "transformTemplate": "Custom transform string"
+  },
+  "advancedProps": {
+    "custom": "Custom data passed to variants/animation functions",
+    "inherit": "Inherit animation state from parent (true/false)",
+    "onAnimationStart": "Callback when animation starts",
+    "onAnimationComplete": "Callback when animation completes",
+    "onUpdate": "Callback on every animation frame update",
+    "onLayoutAnimationStart": "Callback on layout animation start",
+    "onLayoutAnimationComplete": "Callback on layout animation complete"
+  }
+}

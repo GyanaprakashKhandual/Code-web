@@ -9,6 +9,7 @@ const webSkills = require('./data/skills/Web.json');
 const daSkills = require('./data/skills/DA.json');
 const workAi = require('./data/work/AI.json');
 const cs = require('./data/guide/CS.json');
+const webGuide = require('./data/guide/web.json');
 
 const app = express();
 
@@ -30,6 +31,10 @@ app.get('/api/qa-guide', (req, res) => {
 app.get('/api/cs-guide', (req, res) => {
   res.json(cs)
 });
+
+app.get('/api/web-guide', (req, res) => {
+  res.json(webGuide);
+})
 
 // About APIs 
 
