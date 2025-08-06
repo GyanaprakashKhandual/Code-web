@@ -1,0 +1,226 @@
+[
+  {
+    "command": "pwd",
+    "description": "Prints the current working directory"
+  },
+  {
+    "command": "ls",
+    "description": "Lists files and directories in the current directory"
+  },
+  {
+    "command": "cd /path/to/dir",
+    "description": "Changes the current directory to the specified path"
+  },
+  {
+    "command": "mkdir new_folder",
+    "description": "Creates a new directory"
+  },
+  {
+    "command": "touch file.txt",
+    "description": "Creates a new empty file"
+  },
+  {
+    "command": "cp source.txt destination.txt",
+    "description": "Copies a file"
+  },
+  {
+    "command": "mv oldname.txt newname.txt",
+    "description": "Moves or renames a file"
+  },
+  {
+    "command": "rm file.txt",
+    "description": "Removes a file"
+  },
+  {
+    "command": "rm -r folder",
+    "description": "Recursively deletes a directory and its contents"
+  },
+  {
+    "command": "cat file.txt",
+    "description": "Displays the contents of a file"
+  },
+  {
+    "command": "nano file.txt",
+    "description": "Opens a file in the nano text editor"
+  },
+  {
+    "command": "vim file.txt",
+    "description": "Opens a file in the vim text editor"
+  },
+  {
+    "command": "head file.txt",
+    "description": "Displays the first 10 lines of a file"
+  },
+  {
+    "command": "tail file.txt",
+    "description": "Displays the last 10 lines of a file"
+  },
+  {
+    "command": "grep 'word' file.txt",
+    "description": "Searches for 'word' in a file"
+  },
+  {
+    "command": "find . -name \"*.txt\"",
+    "description": "Finds all .txt files in the current directory and subdirectories"
+  },
+  {
+    "command": "chmod +x script.sh",
+    "description": "Makes a script executable"
+  },
+  {
+    "command": "./script.sh",
+    "description": "Runs an executable script"
+  },
+  {
+    "command": "history",
+    "description": "Shows command history"
+  },
+  {
+    "command": "clear",
+    "description": "Clears the terminal screen"
+  },
+  {
+    "command": "echo \"Hello World\"",
+    "description": "Prints a message to the terminal"
+  },
+  {
+    "command": "date",
+    "description": "Displays the current date and time"
+  },
+  {
+    "command": "df -h",
+    "description": "Shows disk usage in a human-readable format"
+  },
+  {
+    "command": "du -sh folder",
+    "description": "Shows the size of a folder"
+  },
+  {
+    "command": "top",
+    "description": "Displays running processes and system resource usage"
+  },
+  {
+    "command": "ps aux",
+    "description": "Displays all running processes"
+  },
+  {
+    "command": "kill PID",
+    "description": "Kills a process by its PID"
+  },
+  {
+    "command": "wget http://example.com",
+    "description": "Downloads files from the internet"
+  },
+  {
+    "command": "curl http://example.com",
+    "description": "Fetches content from a URL"
+  },
+  {
+    "command": "tar -xvf file.tar",
+    "description": "Extracts a .tar file"
+  },
+  {
+    "command": "tar -czvf archive.tar.gz folder",
+    "description": "Compresses a folder into a .tar.gz file"
+  },
+  {
+    "command": "zip -r archive.zip folder",
+    "description": "Compresses a folder into a .zip file"
+  },
+  {
+    "command": "unzip archive.zip",
+    "description": "Extracts a .zip file"
+  },
+  {
+    "command": "alias ll='ls -la'",
+    "description": "Creates a custom alias"
+  },
+  {
+    "command": "source ~/.bashrc",
+    "description": "Reloads bash configuration"
+  },
+  {
+    "command": "export VAR=value",
+    "description": "Sets an environment variable"
+  },
+  {
+    "command": "env",
+    "description": "Displays environment variables"
+  },
+  {
+    "command": "crontab -e",
+    "description": "Opens the cron job scheduler for editing"
+  },
+  {
+    "command": "scp file.txt user@host:/path",
+    "description": "Copies files to a remote server"
+  },
+  {
+    "command": "ssh user@host",
+    "description": "Connects to a remote server using SSH"
+  },
+  {
+    "command": "diff file1.txt file2.txt",
+    "description": "Compares two files"
+  },
+  {
+    "command": "man ls",
+    "description": "Shows the manual page for the `ls` command"
+  },
+  {
+    "command": "xargs",
+    "description": "Builds and executes command lines from input"
+  },
+  {
+    "command": "tee file.txt",
+    "description": "Writes output to a file and also to stdout"
+  },
+  {
+    "command": "awk '{print $1}' file.txt",
+    "description": "Processes text line-by-line using patterns"
+  },
+  {
+    "command": "sed 's/old/new/g' file.txt",
+    "description": "Replaces text in a file using regex"
+  },
+  {
+    "command": "trap \"echo Exiting...\" EXIT",
+    "description": "Executes a command when the script exits"
+  },
+  {
+    "command": "set -e",
+    "description": "Exits a script if any command fails"
+  },
+  {
+    "command": "for f in *.txt; do echo $f; done",
+    "description": "Loops through all .txt files"
+  },
+  {
+    "command": "while read line; do echo $line; done < file.txt",
+    "description": "Reads a file line-by-line"
+  },
+  {
+    "command": "[[ -f file.txt ]] && echo Exists",
+    "description": "Checks if a file exists"
+  },
+  {
+    "command": "nc -zv host port",
+    "description": "Checks if a port is open on a host"
+  },
+  {
+    "command": "lsof -i :8080",
+    "description": "Finds the process using port 8080"
+  },
+  {
+    "command": "uname -a",
+    "description": "Displays system information"
+  },
+  {
+    "command": "uptime",
+    "description": "Shows how long the system has been running"
+  },
+  {
+    "command": "whoami",
+    "description": "Displays the current logged-in user"
+  }
+]

@@ -22,6 +22,19 @@ app.use(cors({
 
 app.use(express.json());
 
+
+// Learning APIs
+app.get('/api/bash-learning', (req, res) => {
+  res.json(require('./data/learn/Bash.json'));
+});
+
+app.get('/api/linux-learning', (req, res) => {
+  res.json(require('./data/learn/Linux.json'));
+});
+
+app.get('/api/git-learning', (req, res) => {
+  res.json(require('./data/learn/Git.json'));
+});
 // Guide APIs
 
 app.get('/api/qa-guide', (req, res) => {
