@@ -1,0 +1,42 @@
+{
+    "projects": [
+        {
+            "projectName": "Automation on E-commerce",
+            "appName": "Pioneers Wine",
+            "appLink": "https://pioneers.vercel.app",
+            "testMethod": "Automation Testing",
+            "testTypes": [
+                {
+                    "Functional Testing": "Selenium"
+                },
+                {
+                    "API Testing": "Rest Assured"
+                },
+                {
+                    "Performance Testing": "Grafana"
+                },
+                {
+                    "UI Testing": "Manual Testing"
+                },
+                {
+                    "Reports": "Extent Reports"
+                },
+                {
+                    "Languages": "Java, JavaScript, Gherkin"
+                },
+                {
+                    "Bug Reporting": "Custom Real-Time Reports"
+                },
+                {
+                    "Documentation": "Notion + Google Docs"
+                }
+            ],
+            "totalHours": "36.4 Hours",
+            "totalBugs": "98",
+            "testDescription": "This project involved testing a complete e-commerce application using Cucumber with Page Object Model (POM). I integrated custom reporting tools and executed end-to-end functional, API, performance, and UI testing. The project successfully uncovered 98 critical bugs that were affecting product performance and customer experience.",
+            "feedback": "Thank you so much, Chris! This was my hobby project, and you helped transform it into a reliable testing framework. With your detailed bug reports and requirement suggestions, I can now elevate this application to a production-level service.",
+            "feedbackFrom": "Subham Diwedi",
+            "gitHubRepo": "https://github.com/GyanaprakashKhandual/Pioneers-Wine-Automation-Test"
+        }
+    ]
+}
