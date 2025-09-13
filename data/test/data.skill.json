@@ -36,9 +36,9 @@
             "integration": [
                 "Cucumber",
                 "Page Object Model",
-                "Playwright/Test",
+                "Playwright Test",
                 "Jest",
-                "Mocha awesome Report",
+                "Mochawesome Report",
                 "Jenkins"
             ]
         },
@@ -58,9 +58,9 @@
             "integration": [
                 "Cucumber",
                 "Page Object Model",
-                "PyTest-Check",
-                "PyTest-Playwright",
-                "PyTest HTML",
+                "pytest-check",
+                "pytest-playwright",
+                "pytest-html",
                 "Jenkins"
             ]
         },
@@ -71,6 +71,15 @@
                 "Base Class Model",
                 "TestNG",
                 "JUnit",
+                "JUnit Report",
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "Postman",
+            "integration": [
+                "Newman",
+                "Postman Assertion",
                 "JUnit Report",
                 "Jenkins"
             ]
