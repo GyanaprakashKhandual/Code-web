@@ -6,6 +6,7 @@ const cors = require('cors');
 
 // Import JSON test data
 const testProjectDataRoutes = require('./data/test/data.test.json');
+const testSkillDataRoutes = require('./data/test/data.skill.json');
 
 const app = express();
 app.use(express.json());
@@ -39,6 +40,9 @@ app.get("/", (req, res) => {
 app.get('/api/v1/project/test', (req, res) => {
     res.json(testProjectDataRoutes);
 });
+app.get('/api/v1/skill/test', (req, res) => {
+    res.json(testSkillDataRoutes);
+})
 
 // Server listen
 const PORT = process.env.PORT || 5000;
