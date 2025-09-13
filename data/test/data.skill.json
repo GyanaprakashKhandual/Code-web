@@ -1,0 +1,79 @@
+{
+    "skills": [
+        {
+            "name": "Manual Testing",
+            "integration": [
+                "Microsoft Document",
+                "Jira",
+                "Miro",
+                "Playwright"
+            ]
+        },
+        {
+            "name": "Cypress",
+            "integration": [
+                "Cucumber",
+                "Page Object Model",
+                "Chai",
+                "Mocha",
+                "Allure Report",
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "Selenium",
+            "integration": [
+                "Cucumber",
+                "Page Object Model",
+                "TestNG",
+                "JUnit",
+                "Extent Report",
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "Playwright",
+            "integration": [
+                "Cucumber",
+                "Page Object Model",
+                "Playwright/Test",
+                "Jest",
+                "Mocha awesome Report",
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "Appium",
+            "integration": [
+                "Cucumber",
+                "Page Object Model",
+                "TestNG",
+                "JUnit",
+                "HTML Report",
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "PyTest",
+            "integration": [
+                "Cucumber",
+                "Page Object Model",
+                "PyTest-Check",
+                "PyTest-Playwright",
+                "PyTest HTML",
+                "Jenkins"
+            ]
+        },
+        {
+            "name": "Rest Assured",
+            "integration": [
+                "Cucumber",
+                "Base Class Model",
+                "TestNG",
+                "JUnit",
+                "JUnit Report",
+                "Jenkins"
+            ]
+        }
+    ]
+}
