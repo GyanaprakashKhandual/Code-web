@@ -8,6 +8,8 @@ const cors = require('cors');
 const testProjectDataRoutes = require('./data/test/data.test.json');
 const testSkillDataRoutes = require('./data/test/data.skill.json');
 
+const webSkillDataRoutes = require('./data/web/data.skill.json');
+
 const app = express();
 app.use(express.json());
 
@@ -42,6 +44,10 @@ app.get('/api/v1/project/test', (req, res) => {
 });
 app.get('/api/v1/skill/test', (req, res) => {
     res.json(testSkillDataRoutes);
+});
+
+app.get('/api/v1/skill/web', (req, res) => {
+    res.json(webSkillDataRoutes);
 })
 
 // Server listen

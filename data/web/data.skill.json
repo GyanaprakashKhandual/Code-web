@@ -4,83 +4,83 @@
     "Title": "Full Stack Developer",
     "Summary": "Experienced developer with expertise in both frontend and backend technologies, specializing in creating responsive web applications with modern animations and 3D elements."
   },
-  
+
   "Languages": [
-    { "Name": "JavaScript", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "Java", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Python", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "C", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "C++", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "C#", "Level": "Beginner", "Experience": "6 Months+" },
-    { "Name": "TypeScript", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "HTML5", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "CSS3", "Level": "Advanced", "Experience": "2 Year+" }
+    { "Name": "JavaScript", "Level": "Advanced", "Experience": "2 Year+", "Project": "100+", "GitHub": "https://github.com/yourusername/javascript-projects" },
+    { "Name": "Java", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/java-projects" },
+    { "Name": "Python", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/python-projects" },
+    { "Name": "C", "Level": "Intermediate", "Experience": "1 Year+", "Project": "10+", "GitHub": "https://github.com/yourusername/c-projects" },
+    { "Name": "C++", "Level": "Intermediate", "Experience": "1 Year+", "Project": "10+", "GitHub": "https://github.com/yourusername/cpp-projects" },
+    { "Name": "C#", "Level": "Beginner", "Experience": "6 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/csharp-projects" },
+    { "Name": "TypeScript", "Level": "Intermediate", "Experience": "1 Year+", "Project": "25+", "GitHub": "https://github.com/yourusername/typescript-projects" },
+    { "Name": "HTML5", "Level": "Advanced", "Experience": "2 Year+", "Project": "120+", "GitHub": "https://github.com/yourusername/html-projects" },
+    { "Name": "CSS3", "Level": "Advanced", "Experience": "2 Year+", "Project": "110+", "GitHub": "https://github.com/yourusername/css-projects" }
   ],
 
   "FrontendFrameworks": [
-    { "Name": "React.js", "Level": "Advanced", "Experience": "1.5 Year+" },
-    { "Name": "Next.js", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Angular", "Level": "Beginner", "Experience": "6 Months+" },
-    { "Name": "Vue.js", "Level": "Beginner", "Experience": "3 Months+" }
+    { "Name": "React.js", "Level": "Advanced", "Experience": "1.5 Year+", "Project": "50+", "GitHub": "https://github.com/yourusername/react-projects" },
+    { "Name": "Next.js", "Level": "Intermediate", "Experience": "1 Year+", "Project": "30+", "GitHub": "https://github.com/yourusername/nextjs-projects" },
+    { "Name": "Angular", "Level": "Beginner", "Experience": "6 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/angular-projects" },
+    { "Name": "Vue.js", "Level": "Beginner", "Experience": "3 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/vue-projects" }
   ],
 
   "BackendFrameworks": [
-    { "Name": "Node.js", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "Express", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "REST API", "Level": "Advanced", "Experience": "1.5 Year+" },
-    { "Name": "Mongoose", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Spring Boot", "Level": "Beginner", "Experience": "6 Months+" },
-    { "Name": "Django", "Level": "Beginner", "Experience": "6 Months+" }
+    { "Name": "Node.js", "Level": "Advanced", "Experience": "2 Year+", "Project": "40+", "GitHub": "https://github.com/yourusername/nodejs-projects" },
+    { "Name": "Express", "Level": "Advanced", "Experience": "2 Year+", "Project": "40+", "GitHub": "https://github.com/yourusername/express-projects" },
+    { "Name": "REST API", "Level": "Advanced", "Experience": "1.5 Year+", "Project": "35+", "GitHub": "https://github.com/yourusername/rest-api-projects" },
+    { "Name": "Mongoose", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/mongoose-projects" },
+    { "Name": "Spring Boot", "Level": "Beginner", "Experience": "6 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/springboot-projects" },
+    { "Name": "Django", "Level": "Beginner", "Experience": "6 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/django-projects" }
   ],
 
   "Database": [
-    { "Name": "MongoDB", "Level": "Advanced", "Experience": "1.5 Year+" },
-    { "Name": "MySQL", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "PostgreSQL", "Level": "Beginner", "Experience": "6 Months+" },
-    { "Name": "Firebase", "Level": "Intermediate", "Experience": "1 Year+" }
+    { "Name": "MongoDB", "Level": "Advanced", "Experience": "1.5 Year+", "Project": "25+", "GitHub": "https://github.com/yourusername/mongodb-projects" },
+    { "Name": "MySQL", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/mysql-projects" },
+    { "Name": "PostgreSQL", "Level": "Beginner", "Experience": "6 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/postgresql-projects" },
+    { "Name": "Firebase", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/firebase-projects" }
   ],
 
   "StylingFrameworks": [
-    { "Name": "Tailwind CSS", "Level": "Advanced", "Experience": "1.5 Year+" },
-    { "Name": "Bootstrap", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Material UI", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Chakra UI", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "SASS/SCSS", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Styled Components", "Level": "Intermediate", "Experience": "1 Year+" }
+    { "Name": "Tailwind CSS", "Level": "Advanced", "Experience": "1.5 Year+", "Project": "40+", "GitHub": "https://github.com/yourusername/tailwind-projects" },
+    { "Name": "Bootstrap", "Level": "Intermediate", "Experience": "1 Year+", "Project": "25+", "GitHub": "https://github.com/yourusername/bootstrap-projects" },
+    { "Name": "Material UI", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/mui-projects" },
+    { "Name": "Chakra UI", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/chakra-projects" },
+    { "Name": "SASS/SCSS", "Level": "Intermediate", "Experience": "1 Year+", "Project": "10+", "GitHub": "https://github.com/yourusername/scss-projects" },
+    { "Name": "Styled Components", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/styled-components-projects" }
   ],
 
   "AnimationLibraries": [
-    { "Name": "Framer Motion", "Level": "Advanced", "Experience": "1 Year+" },
-    { "Name": "GSAP", "Level": "Intermediate", "Experience": "6 Months+" },
-    { "Name": "Lottie (JSON Animations)", "Level": "Intermediate", "Experience": "6 Months+" },
-    { "Name": "Three.js", "Level": "Beginner", "Experience": "3 Months+" },
-    { "Name": "Anime.js", "Level": "Beginner", "Experience": "3 Months+" }
+    { "Name": "Framer Motion", "Level": "Advanced", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/framer-motion-projects" },
+    { "Name": "GSAP", "Level": "Intermediate", "Experience": "6 Months+", "Project": "15+", "GitHub": "https://github.com/yourusername/gsap-projects" },
+    { "Name": "Lottie (JSON Animations)", "Level": "Intermediate", "Experience": "6 Months+", "Project": "10+", "GitHub": "https://github.com/yourusername/lottie-projects" },
+    { "Name": "Three.js", "Level": "Beginner", "Experience": "3 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/threejs-projects" },
+    { "Name": "Anime.js", "Level": "Beginner", "Experience": "3 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/animejs-projects" }
   ],
 
   "DevelopmentTools": [
-    { "Name": "Git", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "GitHub", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "Postman", "Level": "Advanced", "Experience": "1.5 Year+" },
-    { "Name": "Jira", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Webpack", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Vite", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Docker", "Level": "Beginner", "Experience": "6 Months+" },
-    { "Name": "AWS", "Level": "Beginner", "Experience": "6 Months+" },
-    { "Name": "Netlify", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Vercel", "Level": "Intermediate", "Experience": "1 Year+" }
+    { "Name": "Git", "Level": "Advanced", "Experience": "2 Year+", "Project": "50+", "GitHub": "https://github.com/yourusername/git-projects" },
+    { "Name": "GitHub", "Level": "Advanced", "Experience": "2 Year+", "Project": "50+", "GitHub": "https://github.com/yourusername/github-projects" },
+    { "Name": "Postman", "Level": "Advanced", "Experience": "1.5 Year+", "Project": "30+", "GitHub": "https://github.com/yourusername/postman-projects" },
+    { "Name": "Jira", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/jira-projects" },
+    { "Name": "Webpack", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/webpack-projects" },
+    { "Name": "Vite", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/vite-projects" },
+    { "Name": "Docker", "Level": "Beginner", "Experience": "6 Months+", "Project": "10+", "GitHub": "https://github.com/yourusername/docker-projects" },
+    { "Name": "AWS", "Level": "Beginner", "Experience": "6 Months+", "Project": "5+", "GitHub": "https://github.com/yourusername/aws-projects" },
+    { "Name": "Netlify", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/netlify-projects" },
+    { "Name": "Vercel", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/vercel-projects" }
   ],
 
   "TestingFrameworks": [
-    { "Name": "Jest", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "React Testing Library", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Cypress", "Level": "Beginner", "Experience": "6 Months+" }
+    { "Name": "Jest", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/jest-projects" },
+    { "Name": "React Testing Library", "Level": "Intermediate", "Experience": "1 Year+", "Project": "15+", "GitHub": "https://github.com/yourusername/react-testing-library-projects" },
+    { "Name": "Cypress", "Level": "Beginner", "Experience": "6 Months+", "Project": "10+", "GitHub": "https://github.com/yourusername/cypress-projects" }
   ],
 
   "OtherSkills": [
-    { "Name": "Responsive Web Design", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "Cross-browser Compatibility", "Level": "Advanced", "Experience": "2 Year+" },
-    { "Name": "Web Performance Optimization", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "Agile/Scrum Methodology", "Level": "Intermediate", "Experience": "1 Year+" },
-    { "Name": "CI/CD", "Level": "Beginner", "Experience": "6 Months+" }
+    { "Name": "Responsive Web Design", "Level": "Advanced", "Experience": "2 Year+", "Project": "100+", "GitHub": "https://github.com/yourusername/responsive-web-projects" },
+    { "Name": "Cross-browser Compatibility", "Level": "Advanced", "Experience": "2 Year+", "Project": "80+", "GitHub": "https://github.com/yourusername/cross-browser-projects" },
+    { "Name": "Web Performance Optimization", "Level": "Intermediate", "Experience": "1 Year+", "Project": "30+", "GitHub": "https://github.com/yourusername/performance-projects" },
+    { "Name": "Agile/Scrum Methodology", "Level": "Intermediate", "Experience": "1 Year+", "Project": "20+", "GitHub": "https://github.com/yourusername/agile-projects" },
+    { "Name": "CI/CD", "Level": "Beginner", "Experience": "6 Months+", "Project": "10+", "GitHub": "https://github.com/yourusername/cicd-projects" }
   ]
 }
